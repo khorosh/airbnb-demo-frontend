@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const Section = styled.div`position: relative;`;
+
+export const ScrollButton = styled.a`
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 98%;
+`;
+
 export const Wrapper = styled.div`
   display: flex;
   align-items: baseline;
@@ -28,7 +38,10 @@ export const SeeAll = styled.a`
 
 export const ArrowRight = styled.img``;
 
-export const Card = styled.div`cursor: pointer;`;
+export const Card = styled.div`
+  cursor: pointer;
+  max-width: 310px;
+`;
 
 export const Img = styled.img`
   height: 204px;
@@ -50,6 +63,9 @@ export const Price = styled.span`
 export const Name = styled.span`
   font-size: 0.9375rem;
   font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;
 
 export const Facilities = styled.span`

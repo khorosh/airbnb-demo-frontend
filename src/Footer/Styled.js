@@ -72,6 +72,13 @@ export const Link = styled.a`
   }
 `;
 
+export const CopyrightTermsSocial = styled.div`
+  display: flex;
+  align-items: center;
+  box-shadow: 0px -0.5px 0px rgba(72, 72, 72, 0.3);
+  padding: 2rem 0;
+`;
+
 export const Copyright = styled.div`
   display: flex;
   align-items: center;
@@ -81,13 +88,6 @@ export const Copyright = styled.div`
 export const Text = styled.p`
   margin: 0;
   font-size: 0.9375rem;
-`;
-
-export const CopyrightTermsSocial = styled.div`
-  display: flex;
-  align-items: center;
-  box-shadow: 0px -0.5px 0px rgba(72, 72, 72, 0.3);
-  padding: 2rem 0;
 `;
 
 export const TermsSocial = styled.div`

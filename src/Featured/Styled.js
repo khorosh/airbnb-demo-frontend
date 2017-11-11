@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const Section = styled.div`position: relative;`;
+
+export const ScrollButton = styled.a`
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 55%;
+  left: 98%;
+`;
+
 export const Wrapper = styled.div`
   display: flex;
   align-items: baseline;
