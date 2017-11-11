@@ -3,7 +3,7 @@ import arrow16down from "./arrow16down.svg";
 
 export const Footer = styled.footer`
   margin-top: 4rem;
-  box-shadow: 0px -0.5px 0px rgba(72, 72, 72, 0.3);
+  box-shadow: 0px -1px 0px rgba(72, 72, 72, 0.3);
 `;
 
 export const Wrapper = styled.div`
