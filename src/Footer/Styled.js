@@ -34,18 +34,15 @@ export const Settings = styled.form`
 `;
 
 export const Select = styled.select`
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearence: none;
-  &::-ms-expand {
+  appearance: none;
+  ::-ms-expand {
     display: none;
   }
 
   display: block;
   width: 100%;
+  height: 2.5rem;
   border: 1px solid rgba(72, 72, 72, 0.2);
-  box-sizing: border-box;
   border-radius: 0.25rem;
 
   font-weight: 200;
@@ -63,6 +60,7 @@ export const Select = styled.select`
 
   @media (min-width: 576px) {
     padding: 0.75rem 0 0.75rem 1rem;
+    height: 3rem;
     background-position: calc(100% - 0.75rem) center;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
@@ -115,10 +113,10 @@ export const Link = styled.a`
   }
 `;
 
-export const CopyrightTermsSocial = styled.div`
+export const Info = styled.div`
   display: flex;
   flex-direction: column;
-  box-shadow: 0px -0.5px 0px rgba(72, 72, 72, 0.3);
+  box-shadow: 0px -1px 0px rgba(72, 72, 72, 0.15);
   padding: 1rem 0;
 
   @media (min-width: 576px) {
@@ -128,7 +126,7 @@ export const CopyrightTermsSocial = styled.div`
   }
 `;
 
-export const Copyright = styled.div`
+export const Left = styled.div`
   display: flex;
   align-items: center;
   color: #636363;
@@ -139,7 +137,7 @@ export const Copyright = styled.div`
   }
 `;
 
-export const Text = styled.p`
+export const Copyright = styled.p`
   margin: 0;
   font-size: 0.75rem;
   line-height: 0.9375rem;
@@ -150,7 +148,7 @@ export const Text = styled.p`
   }
 `;
 
-export const TermsSocial = styled.div`
+export const Links = styled.div`
   display: flex;
 
   @media (min-width: 576px) {

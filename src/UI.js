@@ -15,7 +15,7 @@ export const Title = styled.h2`
 
 export const Card = styled.div`cursor: pointer;`;
 
-/* Scroll */
+/* Carousel */
 
 export const Section = styled.div`position: relative;`;
 

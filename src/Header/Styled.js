@@ -55,7 +55,6 @@ export const Input = styled.input`
 
   @media (min-width: 768px) {
     font-size: 1rem;
-    width: 392px;
     padding: 0.75rem 0 0.75rem 3rem;
     margin-left: 2rem;
     background: url(${search}) no-repeat 16px 50%;

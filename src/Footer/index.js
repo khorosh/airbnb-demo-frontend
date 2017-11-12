@@ -5,12 +5,12 @@ import {
   Logo,
   Nav,
   Link,
-  Copyright,
+  Left,
   Img,
-  Text,
+  Copyright,
   Title,
-  CopyrightTermsSocial,
-  TermsSocial,
+  Info,
+  Links,
   Settings,
   Social,
   Terms,
@@ -75,12 +75,12 @@ export default function() {
             </div>
           </Wrapper>
         </div>
-        <CopyrightTermsSocial>
-          <Copyright>
+        <Info>
+          <Left>
             <Logo src={logofooter} alt="AirBnB logotype" />
-            <Text>© Airbnb Inc.</Text>
-          </Copyright>
-          <TermsSocial>
+            <Copyright>© Airbnb Inc.</Copyright>
+          </Left>
+          <Links>
             <Terms>
               <Link href="#">Terms</Link>
               <Link href="#">Privacy</Link>
@@ -91,8 +91,8 @@ export default function() {
               <Img src={twitter} href="https://www.twitter.com/Airbnb" />
               <Img src={instagram} href="https://www.instagram.com/Airbnb" />
             </Social>
-          </TermsSocial>
-        </CopyrightTermsSocial>
+          </Links>
+        </Info>
       </div>
     </Footer>
   );
