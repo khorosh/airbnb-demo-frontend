@@ -13,7 +13,12 @@ export const Title = styled.h2`
   }
 `;
 
-export const Card = styled.div`cursor: pointer;`;
+export const Card = styled.a`
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #383838;
+`;
 
 /* Carousel */
 
@@ -38,7 +43,7 @@ export const ScrollButton = styled.a`
     height: 40px;
     position: absolute;
     top: 50%;
-    left: 98%;
+    right: -1%;
   }
 `;
 
