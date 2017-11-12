@@ -1,3 +1,5 @@
+import "normalize.css";
+import "flexboxgrid2";
 import React, { Component } from "react";
 import Header from "./Header/";
 import Explore from "./Explore/";

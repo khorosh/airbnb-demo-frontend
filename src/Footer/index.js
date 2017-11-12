@@ -27,7 +27,7 @@ export default function() {
       <div className="container">
         <div className="row">
           <Wrapper>
-            <div className="col-3">
+            <div className="col-xs-12 col-sm-3">
               <Settings>
                 <Select>
                   <option value="">English</option>
@@ -37,7 +37,7 @@ export default function() {
                 </Select>
               </Settings>
             </div>
-            <div className="col-2">
+            <div className="col-sm-2">
               <Nav>
                 <Title>Airbnb</Title>
                 <Link href="#">About us</Link>
@@ -48,7 +48,7 @@ export default function() {
                 <Link href="#">Diversity & Belonging</Link>
               </Nav>
             </div>
-            <div className="col-2">
+            <div className="col-sm-2">
               <Nav>
                 <Title>Discover</Title>
                 <Link href="#">Trust & Safety</Link>
@@ -60,7 +60,7 @@ export default function() {
                 <Link href="#">Airbnbmag</Link>
               </Nav>
             </div>
-            <div className="col-2">
+            <div className="col-sm-2">
               <Nav>
                 <Title>Hosting</Title>
                 <Link href="#">Why Host</Link>

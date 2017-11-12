@@ -1,5 +1,14 @@
 import React from "react";
-import { Header, Wrapper, LeftSide, Logo, Input, Nav, Link } from "./Styled";
+import {
+  Header,
+  Wrapper,
+  LeftSide,
+  Logo,
+  Input,
+  Nav,
+  Link,
+  LinkMobileMenu
+} from "./Styled";
 import logo from "./logo.svg";
 
 export default function() {
@@ -7,8 +16,9 @@ export default function() {
     <Header>
       <div className="container">
         <Wrapper>
-          <LeftSide>
+          <LeftSide className="col-xs-12">
             <Logo src={logo} alt="AirBnB logotype in vector" />
+            <LinkMobileMenu href="#" />
             <Input type="text" placeholder="Try &quot;Miami&quot;" />
           </LeftSide>
           <Nav>
