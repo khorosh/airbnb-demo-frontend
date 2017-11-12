@@ -2,6 +2,14 @@ import React from "react";
 import {
   Title,
   Card,
+  Section,
+  Scroll,
+  ScrollButton,
+  Link,
+  SeeAll,
+  ArrowRight
+} from "./../UI.js";
+import {
   Img,
   Info,
   Price,
@@ -9,13 +17,7 @@ import {
   Reviews,
   Stars,
   Counter,
-  Wrapper,
-  Link,
-  SeeAll,
-  ArrowRight,
-  ScrollButton,
-  Section,
-  Scroll
+  Wrapper
 } from "./Styled";
 import experiences1 from "./experiences1.png";
 import experiences2 from "./experiences2.png";

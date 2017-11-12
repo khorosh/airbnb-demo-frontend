@@ -1,19 +1,14 @@
 import React from "react";
 import {
   Title,
-  Card,
-  Img,
-  Price,
-  Name,
-  Wrapper,
+  Section,
+  Scroll,
+  ScrollButton,
   Link,
   SeeAll,
-  ArrowRight,
-  Place,
-  ScrollButton,
-  Section,
-  Scroll
-} from "./Styled";
+  ArrowRight
+} from "./../UI.js";
+import { Card, Img, Price, Name, Wrapper, Place } from "./Styled";
 import popular1 from "./popular1.png";
 import popular2 from "./popular2.png";
 import popular3 from "./popular3.png";

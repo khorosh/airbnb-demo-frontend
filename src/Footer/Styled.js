@@ -25,10 +25,10 @@ export const Wrapper = styled.div`
 
 export const Settings = styled.form`
   display: flex;
-  margin-left: -1rem;
+  width: 100%;
 
   @media (min-width: 576px) {
-    margin-left: 0;
+    display: block;
     flex-direction: column;
   }
 `;
@@ -38,33 +38,34 @@ export const Select = styled.select`
   -moz-appearance: none;
   -webkit-appearance: none;
   appearence: none;
-  select::-ms-expand {
+  &::-ms-expand {
     display: none;
   }
 
-  flex-basis: 100%;
+  display: block;
+  width: 100%;
   border: 1px solid rgba(72, 72, 72, 0.2);
   box-sizing: border-box;
   border-radius: 0.25rem;
 
   font-weight: 200;
-  padding: 0.75rem 0 0.75rem 1rem;
+  padding: 0.75rem 0 0.75rem 0.5rem;
   cursor: pointer;
   font-size: 0.75rem;
   background-image: url(${arrow16down});
-  background-position: 92% center;
+  background-position: calc(100% - 0.5rem) center;
   background-repeat: no-repeat;
   background-color: #fff;
-  margin-left: 1rem;
 
   &:hover {
     background-color: rgba(72, 72, 72, 0.1);
   }
 
   @media (min-width: 576px) {
+    padding: 0.75rem 0 0.75rem 1rem;
+    background-position: calc(100% - 0.75rem) center;
     font-size: 0.9375rem;
     line-height: 1.1875rem;
-    margin-left: 0;
   }
 
   @media (min-width: 768px) {

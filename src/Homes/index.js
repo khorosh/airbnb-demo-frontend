@@ -2,6 +2,14 @@ import React from "react";
 import {
   Title,
   Card,
+  Section,
+  Scroll,
+  ScrollButton,
+  Link,
+  SeeAll,
+  ArrowRight
+} from "./../UI.js";
+import {
   Img,
   Info,
   Price,
@@ -10,13 +18,7 @@ import {
   Stars,
   Counter,
   Wrapper,
-  Link,
-  SeeAll,
-  ArrowRight,
-  Facilities,
-  ScrollButton,
-  Section,
-  Scroll
+  Facilities
 } from "./Styled";
 import homes1 from "./homes1.png";
 import homes2 from "./homes2.png";

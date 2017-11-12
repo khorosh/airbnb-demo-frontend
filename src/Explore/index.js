@@ -1,5 +1,6 @@
 import React from "react";
-import { Title, Card, Img, CardTitle, Scroll } from "./Styled";
+import { Title } from "./../UI.js";
+import { Card, Img, CardTitle, Scroll } from "./Styled";
 import explore1 from "./explore1.png";
 import explore2 from "./explore2.png";
 import explore3 from "./explore3.png";

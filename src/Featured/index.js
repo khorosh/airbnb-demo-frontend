@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  Title,
-  Card,
-  Img,
-  Name,
-  ScrollButton,
-  Section,
-  Scroll
-} from "./Styled";
+import { Title, Card, Section, Scroll, ScrollButton } from "./../UI.js";
+import { Img, Name } from "./Styled";
 import featured1 from "./featured1.png";
 import featured2 from "./featured2.png";
 import featured3 from "./featured3.png";

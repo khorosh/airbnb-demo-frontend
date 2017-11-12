@@ -11,13 +11,6 @@ export const Scroll = styled.div`
   }
 `;
 
-export const Title = styled.h2`
-  font-size: 2rem;
-  line-height: 2.125rem;
-  font-weight: 700;
-  margin: 3rem 0 1.5rem;
-`;
-
 export const Card = styled.div`
   border: 1px solid rgba(72, 72, 72, 0.2);
   box-sizing: border-box;
@@ -40,6 +33,7 @@ export const Card = styled.div`
 
 export const Img = styled.img`
   height: 78px;
+  object-fit: cover;
 
   @media (min-width: 576px) {
     height: 72px;

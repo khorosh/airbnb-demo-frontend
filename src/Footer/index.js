@@ -29,12 +29,16 @@ export default function() {
           <Wrapper>
             <div className="col-xs-12 col-sm-3">
               <Settings>
-                <Select>
-                  <option value="">English</option>
-                </Select>
-                <Select>
-                  <option value="">United States dollar</option>
-                </Select>
+                <div className="col-xs-6 col-sm-12">
+                  <Select>
+                    <option value="">English</option>
+                  </Select>
+                </div>
+                <div className="col-xs-6 col-sm-12">
+                  <Select>
+                    <option value="">United States dollar</option>
+                  </Select>
+                </div>
               </Settings>
             </div>
             <div className="col-sm-2">
