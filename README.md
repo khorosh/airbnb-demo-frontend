@@ -1,2 +1,3 @@
-Zdes budet zaebis
-Ili ne budet
+This project was bootstrapped with Create React App.
+
+erodionov.ru
